@@ -1,2 +1,2 @@
 # portfolio-website
-A basic portfolio websites for displaying my projects
+A basic portfolio website for displaying my projects
