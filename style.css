@@ -45,6 +45,7 @@ h2 {
 }
 
 footer.contact-me {
+    overflow-x: hidden;
     background-color: aqua;
     flex-shrink: 0;
 }
