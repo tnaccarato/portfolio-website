@@ -1,0 +1,41 @@
+/* Everything */
+* {
+    font-size: 18px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.contact-me img {
+    height: auto;
+    width: 60px;
+}
+
+.my-portfolio .hyperion-dev{
+    background-color: red;
+
+}
+.my-portfolio strong{
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.odin-project {
+    background-color: green;
+}
+
+.contact-me {
+    position: sticky;
+    bottom: 0;
+}
+div.contact-me {
+    background-color: aqua;
+}
