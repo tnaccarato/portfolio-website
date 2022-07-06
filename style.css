@@ -21,10 +21,12 @@ body{
 }
 h1 {
     font-size: 40px;
+    font-weight: bolder;
 }
 
 h2 {
     font-size: 30px;
+    font-weight: bold;
 }
 
 .contact-me img {
@@ -32,6 +34,11 @@ h2 {
     width: 60px;
 }
 
+.my-portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
 .my-portfolio .hyperion-dev{
     background-color: red;
 }
@@ -42,16 +49,18 @@ h2 {
 
 .odin-project {
     background-color: green;
+    margin: 6px 0px;
 }
 
 footer.contact-me {
+    display: flex;
+    flex-direction: column;
     overflow-x: hidden;
     background-color: aqua;
     flex-shrink: 0;
 }
 
-.contact-details {
-    position: relative;
-    bottom: 68px;
-    left: 140px;
+.contact-me .content {
+    display: flex;
+    flex-direction: row;
 }
