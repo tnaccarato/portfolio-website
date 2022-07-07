@@ -38,6 +38,8 @@ h2 {
     display: flex;
     flex-direction: column;
     background-color: aquamarine;
+    gap: 10px
+
 }
 .my-portfolio .hyperion-dev{
     background-color: pink;
@@ -49,7 +51,6 @@ h2 {
 
 .odin-project {
     background-color: green;
-    margin: 6px 0px;
 }
 
 footer.contact-me {
@@ -63,4 +64,5 @@ footer.contact-me {
 .contact-me .content {
     display: flex;
     flex-direction: row;
+    gap: 12px
 }
